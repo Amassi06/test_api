@@ -1,0 +1,21 @@
+{
+  "name": "test_api",
+  "version": "1.0.0",
+  "description": "API REST simple avec Express + TypeORM + MySQL",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "tsx --watch src/index.ts"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.19.1",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.28"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
